@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=1-CT9qYD3JB25aYU-XGyCzc2iNVyqrevQ'
 export_file_name = '4class-Production-Model.pkl'
 
-classes = ['Covid19', 'Normal', 'Pneumonia','Notx-ray']
+classes = ['Covid19', 'Normal', 'Pneumonia','Non-Xray']
 path = Path(__file__).parent
 
 app = Starlette()
